@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bananchips</title>
+    <link rel="stylesheet" href="webbplats.css">
+    <style>
+		.square-btn {
+			display: inline-block;
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			border-radius: 5px;
+			transition: background-color 0.3s;
+			margin: 10px;
+			width: 100px;
+			height: 100px;
+			line-height: 80px;
+			box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+		}
+		
+		.square-btn:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+    <div id="Banan" class="Banan">
+        <div id="profilbild" class="profilbild">
+            <img src="dehydrated-banana-chips-sq.jpg" alt="Bananchips">
+        </div>
+        <div id="profil" class="profil">
+            <h1>Svenska Bananchips AB</h1>
+            <div id="kontakt" class="kontakt">
+                <p>Grundat 1942</p>
+                <p>Drottninggatan 12, Stockholm</p>
+                <p>E-post: <a href="https://mail.google.com/mail/u/0/#inbox">SvenskabananchipsAB@gmail.com</a></p>
+            </div>
+            <div id="beskrivning" class="beskrivning">
+                <p>Svenska Bananchips AB är ett företag dedikerat till bananchips av högsta kvalitet</p>
+            </div>
+            <div id="Typer" class="Typer">
+                <h2>Typer av Bananchips</h2>
+                <ul>
+                    <li>Vanliga bananchips</li>
+                    <li>Bananchips med Yoghurt</li>
+                    <li>Bananchips med Vit choklad</li>
+                    <li>Bananchips med Mörk choklad</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="bananchips-yoghurt.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="bananchips-vitchoklad.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+            <img src="Bananchips-mörkchoklad.jpg" style="width:100%">
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <a href="webbplats.html" class="square-btn">Sida 1</a>
+	<a href="webbplats2.html" class="square-btn">Sida 2</a>
+	<a href="webbplats3.html" class="square-btn">Sida 3</a>
+</body>
+</html>
